@@ -1,0 +1,22 @@
+1) git init
+This command creates an empty Git repository - basically a .git directory with subdirectories.
+
+2) git clone
+Clones a repository into a newly created directory, creates remote-tracking branches
+for each branch in the cloned repository, and creates and checks out an initial branch that is
+forked from the cloned repository’s currently active branch.
+
+3) git add
+It only adds the content of the specified file(s) at the time the add command is run.
+
+4) git rm
+Remove files from the index, or from the working tree and the index. git rm will not remove a
+file from just your working directory.
+
+5) git commit
+The "commit" command is used to save your changes to the local repository.
+
+6) git status
+Displays paths that have differences between the index file and the current HEAD commit, paths
+that have differences between the working tree and the index file, and paths in the working tree
+that are not tracked by Git.
